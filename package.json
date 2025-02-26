@@ -1,0 +1,19 @@
+{
+  "name": "discord-middleman-bot",
+  "version": "1.0.0",
+  "description": "Discord middleman bot for transactions",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "deploy": "node bot.js deploy"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "@discordjs/rest": "^1.5.0",
+    "discord-api-types": "^0.37.35"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
